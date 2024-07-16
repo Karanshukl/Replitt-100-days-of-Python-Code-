@@ -9,7 +9,7 @@ YourFamilyMember = input("family member's: ")
 WhereDoYouLive = input("Where do you live: ")
 
 
-print("Hello",WhatIsYourName,".","Can you tell me what is your favourite food",WhatIsYourFavFood,
-"and what you like to do",WhatYouLikeToDo,"," "this is little bit personal for you,",WhoIsYourCrush,".", 
-"Don't get me wrong Yr,", "how many members in your family", YourFamilyMember, "and one of the most important 
-thing where so you live","\033[31m",WhereDoYouLive,"\033[31m")
+print("Hello: ",WhatIsYourName,".","Can you tell me what is your favourite food: ",WhatIsYourFavFood,
+"and what you like to do: ",WhatYouLikeToDo,"," "this is little bit personal for you, who is your crush: ",WhoIsYourCrush,".", 
+"Don't get me wrong Yr,", "how many members in your family: ", YourFamilyMember, "and one of the most important 
+thing where so you live: ","\033[31m",WhereDoYouLive,"\033[31m")
