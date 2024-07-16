@@ -14,7 +14,7 @@ elif ((name == "keshav") or (name == "Keshav")):
   print("how are you? ")
   HowAreYou = input("How are You? ")
   if (HowAreYou == "good" or HowAreYou == "Good" or HowAreYou == "fine"):
-    print("But you're very Bald")
+    print("You're very Bald")
   else:
     print("Good, It's Ok")
 
