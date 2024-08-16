@@ -23,3 +23,21 @@ def Contact():
   or write to the Cupboard Under the Stairs, Replit Towers, NY.""")
   
 Contact()
+
+
+# Method 2
+
+name = input("Name: ").strip().capitalize()
+dob = input("Date of Birth: ").strip()
+tel = int(input("Telephone number: "))
+email = input("Email: ")
+address = input("Address: ")
+list = {"namevalue": name, "dobvalue": dob, "telvalue": tel, "emailvalue": email, "addressdata": address}
+print()
+  
+
+print(f"""Name: {list["namevalue"]}""")
+print(f"""DOB: {list["dobvalue"]}""")
+print(f"""Tel: {list["telvalue"]}""")
+print(f"""Email: {list["emailvalue"]}""")
+print(f"""Address: {list["addressdata"]}""")
