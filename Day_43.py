@@ -33,7 +33,7 @@ class BingoGrid:
         self.grid = []
         self.generate_grid()
 
-    def enerate_grid(self):
+    def generate_grid(self):
         numbers = sorted(random.randint(1, 90) for _ in range(8))
         self.grid = [
                      [numbers[0], numbers[1], numbers[2]],
