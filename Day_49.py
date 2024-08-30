@@ -1,8 +1,8 @@
 # Before seeing this code, first you have to know the code of Day 48 
 # Day_48.py -> https://github.com/Karanshukl/Replitt-100-days-of-Python-Code-/blob/main/Day_48.py
 
-RED = "\033[032m"
-BLUE = "\033[031m"
+GREEN = "\033[032m"
+RED = "\033[031m"
 END="\033[0m"
 
 def highScore_leader():
@@ -21,6 +21,6 @@ def highScore_leader():
         highScore = int(data[1])
         name = data[0]
         
-  print("Current HighScorer is {0}{1}{2} with score {3}{4}{5}".format(RED,name,END,BLUE,highScore,END))  
+  print("Current HighScorer is {0}{1}{2} with score {3}{4}{5}".format(GREEN,name,END,RED,highScore,END))  
   
 highScore_leader()
