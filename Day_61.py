@@ -1,5 +1,6 @@
+
 import replit
-from replit import db
+from replit import db 
 import datetime
 import os
 import time
@@ -52,7 +53,6 @@ def main():
     while True:
         print("Tweeter\n")
         menu = input("1: Add Tweet\n2: View Tweets\n > ")
-\
         if menu == "1":
             add_tweet()
         elif menu == "2":
